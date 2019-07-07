@@ -16,7 +16,7 @@ class SongCreate extends Component {
     //we want to handle the submission ourselves so we prevent the default action
     event.preventDefault();
     //we try to reach out to our backend server here
-    console.log(this.props);
+
     this.props
       .mutate(
         //configuration object containing our variables

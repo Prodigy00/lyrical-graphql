@@ -9,6 +9,8 @@ class SongDetail extends Component {
   render() {
     const { song } = this.props.data;
 
+    //always make sure your data is available before you try
+    //to consume it in some way
     if (!song) {
       return <div>Loading...</div>;
     }
