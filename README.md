@@ -1,2 +1,2 @@
 # Lyrical-GraphQL
-Project code along following Stephen Grider
+An app I built following Stephen Grider's amazing course!
